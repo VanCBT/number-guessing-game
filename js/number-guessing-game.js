@@ -30,7 +30,7 @@ function checkGuess(guessNumber, target) {
     } else if ((guessNumber < 1) || (guessNumber >100)) {
         alert('Please enter an integer in the 1-100 range.');
     } else if ((guessNumber > target) && (guessNumber < target + 10) || (guessNumber < target) && (guessNumber > target - 10)) {
-        alert('Getting warmer, you just missed! Try again.');d
+        alert('Getting warmer, you just missed! Try again.');
     } else if (guessNumber > target) {
         alert('Your number is too large!');
     } else if (guessNumber < target) {
